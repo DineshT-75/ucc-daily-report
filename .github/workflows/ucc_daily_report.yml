@@ -1,8 +1,8 @@
-name: UCC Report Every 2 Minutes
+name: UCC Report Every 5 Minutes
 
 on:
   schedule:
-    - cron: '*/6 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
