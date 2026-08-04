@@ -54,7 +54,7 @@ CONFIG = {
     "SMTP_PORT": 587,
     "SENDER_EMAIL": os.environ.get("SENDER_EMAIL", "dinesh.t@buzzworks.com"),
     "SENDER_PASSWORD": os.environ.get("SENDER_PASSWORD", "onop odwq yohs vxmi"),
-    "RECEIVER_EMAILS": os.environ.get("RECEIVER_EMAILS", "jagadeesan.d@buzzworks.com").split(",") if os.environ.get("RECEIVER_EMAILS") else [],
+    "RECEIVER_EMAILS": os.environ.get("RECEIVER_EMAILS", "tempoemailq@gmail.com").split(",") if os.environ.get("RECEIVER_EMAILS") else [],
     "CC_EMAILS": os.environ.get("CC_EMAILS", "").split(",") if os.environ.get("CC_EMAILS") else [],
     "SUBJECT": "UCC Daily Report - {date}",
 
