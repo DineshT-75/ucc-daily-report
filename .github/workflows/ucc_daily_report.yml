@@ -2,7 +2,7 @@ name: UCC Daily Report
 
 on:
   schedule:
-    - cron: '30 12 * * *'
+    - cron: '5 5 * * *'
   workflow_dispatch:
 
 jobs:
