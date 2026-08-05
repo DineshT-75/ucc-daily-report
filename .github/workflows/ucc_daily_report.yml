@@ -1,13 +1,14 @@
-name: UCC Report Every 5 Minutes
+name: UCC Daily Report
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '30 12 * * *'
   workflow_dispatch:
 
 jobs:
   send-report:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
